@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #4CAF50;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sessions Section */
+.sessions {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.sessions h2 {
+    margin-bottom: 30px;
+}
+
+.session-level {
+    display: inline-block;
+    width: 30%;
+    margin: 0 15px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.session-level h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.session-level ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.session-level ul li {
+    margin: 5px 0;
+}
+
+/* Sign Up Section */
+.signup {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.signup h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.signup form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.signup input,
+.signup select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+.contact ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.contact ul li {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Footer */
+

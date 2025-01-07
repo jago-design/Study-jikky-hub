@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Study @ Jikky Hub</title>
+    <link rel="stylesheet" href="jiggy.css">
+    <a href="https://www.study@jikky hub.com"></a>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Study @ Jikky Hub</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sessions">Sessions</a></li>
+                    <li><a href="#signup">Sign Up</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Unlock Your Academic Potential with Tailored Online Sessions</h2>
+            <p>Whether you're preparing for Primary, Junior, or Senior level subjects, we offer personalized tutoring in Mathematics, English, Science, and more.</p>
+            <a href="#signup" class="cta-btn">Sign Up Now</a>
+        </div>
+    </section>
+
+    <!-- Sessions Section -->
+    <section id="sessions" class="sessions">
+        <div class="container">
+            <h2>Our Sessions</h2>
+            <div class="session-level">
+                <h3>Primary Level (Basic 5 & 6)</h3>
+                <ul>
+                    <li>Mathematics</li>
+                    <li>English</li>
+                    <li>Verbal Reasoning</li>
+                    <li>Quantitative Reasoning</li>
+                    <li>Islamic Studies</li>
+                </ul>
+            </div>
+            <div class="session-level">
+                <h3>Junior Level</h3>
+                <ul>
+                    <li>Mathematics</li>
+                    <li>English</li>
+                    <li>Basic Science</li>
+                    <li>Islamic Studies</li>
+                </ul>
+            </div>
+            <div class="session-level">
+                <h3>Senior Level</h3>
+                <ul>
+                    <li>Chemistry</li>
+                    <li>Physics</li>
+                    <li>Biology</li>
+                    <li>Islamic Studies</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign Up Section -->
+    <section id="signup" class="signup">
+        <div class="container">
+            <h2>Sign Up for Online Sessions</h2>
+            <form action="#" method="POST">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="level">Select Level:</label>
+                <select id="level" name="level">
+                    <option value="primary">Primary Level</option>
+                    <option value="junior">Junior Level</option>
+                    <option value="senior">Senior Level</option>
+                </select>
+
+                <label for="subjects">Select Subjects (Multiple):</label>
+                <select id="subjects" name="subjects[]" multiple>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="english">English</option>
+                    <option value="verbal-reasoning">Verbal Reasoning</option>
+                    <option value="quantitative-reasoning">Quantitative Reasoning</option>
+                    <option value="basic-science">Basic Science</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="physics">Physics</option>
+                    <option value="biology">Biology</option>
+                    <option value="islamic-studies">Islamic Studies</option>
+                </select>
+
+                <label for="timing">Preferred Session Timing:</label>
+                <input type="text" id="timing" name="timing">
+
+                <button type="submit" class="cta-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to contact us:</p>
+            <ul>
+                <li>Phone 1: 08097199759</li>
+                <li>Phone 2: 09074951732</li>
+                <li>Email: <a href="mailto:abdullahihalimah.abimbola@gmail.com">abdullahihalimah.abimbola@gmail.com</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Study @ Jikky Hub | All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
